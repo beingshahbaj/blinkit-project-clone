@@ -88,9 +88,9 @@
         align-items: flex-start;
         justify-content: space-between;
     }
-    /* .list{
+    .list{
         display: none !important;
-    } */
+    }
 
     .item-list {
         max-width: 100%;
