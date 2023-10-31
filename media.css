@@ -90,6 +90,18 @@
         display: none !important;
     } */
 
+    .item-list {
+        max-width: 100%;
+        overflow: auto hidden;
+        display: flex;
+        flex-direction: row;
+        -webkit-box-align: center;
+        align-items: center;
+        padding-bottom: 20px;
+        column-gap: 8px;
+        /* margin-left: 12px; */
+        /* margin-right: 12px; */
+    }
     .item-card .img img {
         height: 124px;
         width: 128px;
