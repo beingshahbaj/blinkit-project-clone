@@ -4,7 +4,7 @@
         z-index: 1000;
         position: sticky;
         width: 100vw;
-        height: 87px;
+        height: 60px;
         top: 0;
         left: 0;
     }
@@ -14,13 +14,14 @@
         height: 63px;
     }
     nav {
+        height: 100%;
         display: flex;
         padding-inline: 13px;
         justify-content: space-between;
     }
 
     .logo{
-        width: auto;
+        width: 100px;
     }
     .location-logo{
         display: block;
@@ -56,13 +57,13 @@
         display: block !important;
     }
     .profile{
-        gap: 10px;
+        gap: 15px;
         display: flex;
         justify-content: space-between;
     }
 
     .btn {
-        font-size: 13px;
+        font-size: 9px;
         font-weight: 400;
         gap: 6px;
         border: none;
