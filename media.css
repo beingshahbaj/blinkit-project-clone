@@ -82,7 +82,7 @@
 
     .f-container {
         flex-direction: row;
-        gap: 5px;
+        gap: 0px;
         display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
@@ -111,7 +111,7 @@
         border-radius: 0px;
     }
     main .grosery-list img {
-        width: 24.9vw;
+        width: 24.7vw;
     }
 
     main .grosery-list {
@@ -127,7 +127,7 @@
     }
 
     .banner  .banner-list img {
-        width: 46vw;
+        width: 46.3vw;
     }
 
     .category {
@@ -160,12 +160,12 @@
         border-radius: 8px;
     }
     .f-bottom {
-        margin-top: 50px;
-        margin-bottom: 40px;
+        flex-direction: row;
+        gap: 0px;
         display: flex;
-        justify-content: center;
-        align-items: center;
         flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
     }
     .copy {
         display: flex;
@@ -197,5 +197,9 @@
     .playstore img{
         border-radius: 0px;
         width: 60px !important;
+    }
+
+    footer{
+        margin-inline: 10px;
     }
 }
