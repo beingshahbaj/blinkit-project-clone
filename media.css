@@ -163,8 +163,8 @@
         margin-top: 50px;
         margin-bottom: 40px;
         display: flex;
-        justify-content: space-between;
-        align-items: start;
+        justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
     }
     .copy {
@@ -193,5 +193,9 @@
         
             width: 17px;
         
+    }
+    .playstore img{
+        border-radius: 0px;
+        width: 60px !important;
     }
 }

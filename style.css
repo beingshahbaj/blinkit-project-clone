@@ -365,3 +365,8 @@ align-items: start;
   width: 41px;
 
 }
+
+.playstore img{
+  border-radius: 0px !important;
+  width: 60px !important;
+}
