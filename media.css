@@ -79,15 +79,23 @@
         color: white;
     }
 
-    .f-container{
+    .f-container {
+        flex-direction: row;
         gap: 5px;
         display: flex;
-        flex-wrap: wrap-reverse;
+        flex-wrap: wrap;
+        align-items: flex-end;
     }
-    .list{
+    /* .list{
         display: none !important;
-    }
+    } */
 
+    .item-card .img img {
+        height: 124px;
+        width: 128px;
+        cursor: default;
+        border-radius: 0px;
+    }
     main .grosery-list img {
         width: 18.6vw;
     }
@@ -136,5 +144,40 @@
         border: 0.5px solid rgb(232, 232, 232);
         box-shadow: rgba(0, 0, 0, 0.04) 25px 35px 64px;
         border-radius: 8px;
+    }
+    .f-bottom {
+        margin-top: 50px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-wrap: wrap;
+    }
+    .copy {
+        display: flex;
+        align-items: start;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .copy img {
+        width: 63px;
+    }
+    .copy p, .copy  h3 {
+        font-size: 7px;
+    }
+    .social svg ,  .social img {
+        width: 17px;
+    }
+
+    .f-bottom .social {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+    .f-bottom .social img{
+        
+            width: 17px;
+        
     }
 }
