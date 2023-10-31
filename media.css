@@ -1,0 +1,88 @@
+@media screen and (max-width:480px){
+    
+    header {
+        z-index: 1000;
+        position: sticky;
+        width: 100vw;
+        height: 87px;
+        top: 0;
+        left: 0;
+    }
+
+    nav ul li img {
+        width: 91px;
+        height: 63px;
+    }
+    nav {
+        display: flex;
+        padding-inline: 13px;
+        justify-content: space-between;
+    }
+
+    .logo{
+        width: auto;
+    }
+    .location-logo{
+        display: block;
+    }
+    .location{
+        display: none;
+    }
+
+    nav ul .search-bar{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+
+    .logo-l {
+        gap: 10px;
+    }
+
+    nav ul {
+        gap: 49px;
+        display: flex;
+        align-items: center;
+    }
+    .search {
+        font-size: 19px;
+    
+        
+        position: static;
+    }
+
+    .search-logo{
+        display: block !important;
+    }
+    .profile{
+        gap: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn {
+        font-size: 13px;
+        font-weight: 400;
+        gap: 6px;
+        border: none;
+        background-color: rgb(12, 131, 31);
+        border-radius: 8px;
+        cursor: pointer;
+        height: 29px;
+        width: 90px;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        display: flex;
+        color: white;
+    }
+
+    .f-container{
+        gap: 5px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+}
