@@ -111,12 +111,12 @@
         border-radius: 0px;
     }
     main .grosery-list img {
-        width: 18.6vw;
+        width: 24.9vw;
     }
 
     main .grosery-list {
         display: grid;
-        grid-template-columns: repeat(5 , 1fr);
+        grid-template-columns: repeat(4 , 1fr);
     }
 
     .banner  .banner-list {
@@ -127,7 +127,7 @@
     }
 
     .banner  .banner-list img {
-        width: 31vw;
+        width: 46vw;
     }
 
     .category {

@@ -266,7 +266,7 @@ row-gap: 20px;
 }
 
 .detail .name{
-  font-weight: bold;
+  font-weight: normal;
   font-size: 10px;
   line-height: 1.25;
   color: rgb(32, 32, 32);
