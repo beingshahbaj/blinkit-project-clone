@@ -280,6 +280,15 @@
         display: none;
     }
 
+
+    header {
+        z-index: 1000;
+        position: sticky;
+        width: 100vw;
+        height: 87px;
+        top: 0;
+        left: 0;
+    }
     .profile {
         flex-shrink: 200px;
         gap: 20px;
@@ -339,5 +348,14 @@
 
     .banner  .banner-list img {
         width: 30.1vw;
+    }
+
+    .location-logo {
+        display: block !important;
+    }
+
+    .logo-l {
+        margin-right: 17px;
+        gap: 14px;
     }
 }

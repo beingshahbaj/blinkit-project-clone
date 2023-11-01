@@ -24,24 +24,25 @@ body{
 header{
   z-index: 1000;
     position: sticky;
-    /* width: 100vw; */
+    width: 100vw;
     height: 87px;
     top: 0;
     left: 0;
 }
 
-nav {
-  
-  padding-inline: 40px;
-  display: flex;
-  background-color: white;
-  height: 86px;
-  /* position: absolute; */
-  /* width: 100%; */
-  z-index: 1000;
-  border-bottom: 1px solid rgb(238, 238, 238);
-  justify-content:left;
+
+  nav {
+    padding-inline: 40px;
+    display: flex;
+    background-color: white;
+    height: 86px;
+    /* position: absolute; */
+    /* width: 100%; */
+    z-index: 1000;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    justify-content: space-between;
 }
+
 
  nav ul {
   gap: 49px;
@@ -102,6 +103,7 @@ nav ul li input::placeholder{
 }
 
 .profile{
+  text-align: center;
     gap: 76px;
 }
 
