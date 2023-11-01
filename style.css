@@ -4,6 +4,7 @@
   
   font-family: 'Poppins', sans-serif;
 /* font-family: 'Unbounded', sans-serif; */
+scroll-behavior: smooth;
 }
 
 li {
