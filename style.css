@@ -380,7 +380,7 @@ align-items: start;
   display: none;
 }
 #animation-video {
-
+  margin-bottom: -4px;
   width: 100%;
   height: 100%;
 }
