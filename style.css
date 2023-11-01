@@ -386,3 +386,14 @@ align-items: start;
 }
 
 
+.store{
+  gap: 20px;
+  overflow-y: scroll;
+  display: flex !important;
+  justify-content: space-between;
+}
+
+.store img{
+  border-radius: 7px;
+  width: 100% !important;
+}
