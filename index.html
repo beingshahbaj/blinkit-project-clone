@@ -63,7 +63,16 @@
 
     <main>
         <section class="banner">
+
+            <div id="animation-container">
+                <video id="animation-video" autoplay loop>
+                    <source src="https://cdn.grofers.com/layout-engine/2023-09/pann-animation_0.mp4" type="video/mp4">
+                    
+                </video>
+            </div>
+            
             <div class="tabaco">
+               
                 <img class="first-img"
                     src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=2700/layout-engine/2022-05/Group-33704.jpg"
                     alt="">
@@ -1799,5 +1808,18 @@
         </div> -->
     </footer>
 </body>
+<script>
+   
+    var video = document.getElementById("animation-video");
 
+    function toggleVideo() {
+        if (video.paused) {
+            video.play();
+        } else {
+            video.pause();
+        }
+    }
+
+
+</script>
 </html>

@@ -202,4 +202,15 @@
     footer{
         margin-inline: 10px;
     }
+
+    #animation-container{
+        display: inline;
+      }
+    
+    #animation-video {
+       
+        width: 100%;
+        height: 100%;
+      }
 }
+
