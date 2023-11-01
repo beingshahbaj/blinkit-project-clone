@@ -273,6 +273,12 @@
    align-items: center;
    padding-inline: 20px;
 }
+.item-card .img img {
+    height: 100%;
+    width: 100%;
+    cursor: default;
+    border-radius: 0px;
+}
 }
 
 @media only screen and (max-width:1024px) and (min-width:767px){
@@ -357,5 +363,11 @@
     .logo-l {
         margin-right: 17px;
         gap: 14px;
+    }
+    .item-card .img img {
+        height: 100%;
+        width: 100%;
+        cursor: default;
+        border-radius: 0px;
     }
 }
