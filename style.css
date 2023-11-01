@@ -371,6 +371,10 @@ align-items: start;
   width: 60px !important;
 }
 
+.mobile{
+  display: none;
+}
+
 
 #animation-container{
   display: none;
