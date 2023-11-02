@@ -153,7 +153,7 @@
 
   .item-card {
     /* height: 39vh; */
-    width: 34.5vw;
+    width: 34.5vw !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -275,13 +275,13 @@
 }
 .item-card .img img {
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
     cursor: default;
     border-radius: 0px;
 }
 }
 
-@media only screen and (max-width:1024px) and (min-width:767px){
+@media only screen and (max-width:1024px) and (min-width:768px){
     .location{
         display: none;
     }
@@ -366,7 +366,7 @@
     }
     .item-card .img img {
         height: 100%;
-        width: 100%;
+        /* width: 100%; */
         cursor: default;
         border-radius: 0px;
     }
