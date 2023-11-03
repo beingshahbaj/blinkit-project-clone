@@ -252,14 +252,11 @@
   }
 
   .wisper {
-    margin-top: -4px;
-  
-    
+    margin-top: -8px;
     display: flex;
-   
     justify-content: center;
     background-color: rgb(84, 187, 73);
-    padding: 0px 8px 8px;
+    padding: 14px 15px 24px;
 }
 
 .wisper-all{
